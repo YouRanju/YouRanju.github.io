@@ -1,0 +1,31 @@
+.site-category {
+    margin: auto;
+    margin-top: 40%;
+    width: 80%;
+    text-align: center;
+}
+
+.site-category span {
+    color: white;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.site-category ul {
+    margin-top: 60px;
+    list-style: none;
+    text-align: right;
+}
+
+.site-category ul li {
+    margin: 10px;
+}
+
+.site-category ul li a {
+    color: white;
+    font-size: 1.2em;
+}
+
+img {
+    width: 50%;
+}
