@@ -76,32 +76,17 @@ img {
     transition: all 1s ease-in-out;
 } */
 
-.resumeimg + p {
+.resumeimg + p, .portfolioimg + p {
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0;
 }
 
-.portfolioimg + p {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-}
-
-.resumeimg:hover + p {
+.resumeimg:hover + p, .portfolioimg:hover + p {
     color: white;
     font-size: 1.8em;
-    font-weight: bold;
     opacity: 1;
-    transition: all 1s ease-in-out;
-}
-
-.portfolioimg:hover + p {
-    color: white;
-    font-size: 1.8em;
-    font-weight: bold;
-    opacity: 1;
-    transition: all 1s ease-in-out;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
 }
